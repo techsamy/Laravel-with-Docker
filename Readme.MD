@@ -16,8 +16,11 @@ https://docs.docker.com/get-started/docker_cheatsheet.pdf
 
 ## Laravel ##
 
-# create new project Laravel
+# create new project in with Latest Laravel
 composer create-project laravel/laravel <example-app-name>
+
+## Create any specific version of laravel
+composer create-project laravel/laravel:^10.0 example-app
 
 # Start Local Dev server
 php artisan serve
